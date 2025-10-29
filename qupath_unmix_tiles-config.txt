@@ -1,2 +1,9 @@
-input_folder=20230808_21-2551-A4-mf_Scan2/
-output_name=20230808_21-2551-A4-mf_Scan2.ome.tiff
+user=Eduardo.Esteva@nyulangone.org
+## batch parameters:
+# batch-manifest.txt
+## each line is a path to an input folder of unstitched .tiffs
+# output-manifest.txt
+## each line is the desired name of the output .ome.tiff to be written to the corresponding folder above^
+
+sample_count=$(wc -l batch-manifest.txt | awk '{print $1}')
+p_s_module_Path=run_qupath_pyramidize.s
