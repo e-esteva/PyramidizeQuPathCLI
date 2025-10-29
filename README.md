@@ -38,16 +38,7 @@ X_RESOLUTION and Y_RESOLUTION
 X_POSITION and Y_POSITION
 IMAGE_WIDTH and IMAGE_LENGTH
 
+Usage:
+sbatch run-pyramidize_and_stitch.s qupath_unmix_tiles-config.txt
 
-
-Installation
-bash# Clone the repository
-git clone https://github.com/yourusername/qupath-tiff-merger.git
-cd qupath-tiff-merger
-
-# Make scripts executable
-chmod +x local_controller.sh
-chmod +x master_controller.sh
-
-# Verify QuPath installation
-QuPath --version
+Example config in repo
