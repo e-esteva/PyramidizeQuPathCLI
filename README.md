@@ -4,9 +4,9 @@ A high-performance pipeline for merging field-of-view TIFF images into pyramidal
 Overview
 This pipeline converts multiple TIFF field-of-view images into single pyramidal OME-TIFF files by parsing spatial metadata from baseline TIFF tags. It features a three-tier architecture for scalable batch processing:
 
-Core Script (merge_tiffs.groovy) - QuPath Groovy script for TIFF merging
-Local Controller (Bash) - Processes individual folders
-Master Controller (Bash) - Orchestrates parallel processing across multiple folders
+Core Script (qupath_merge_unmixed_files_to_pyramidv0.4.3.groovy) - QuPath Groovy script for TIFF merging
+Local Controller (run_qupath_pyramidize.s, Bash) - Processes individual folders
+Master Controller (run-pyramidize_and_stitch.s, Bash) - Orchestrates parallel processing across multiple folders
 
 Features
 
