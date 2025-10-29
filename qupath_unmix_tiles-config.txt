@@ -1,0 +1,2 @@
+input_folder=20230808_21-2551-A4-mf_Scan2/
+output_name=20230808_21-2551-A4-mf_Scan2.ome.tiff
