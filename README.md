@@ -1,7 +1,9 @@
 # PyramidizeQuPathCLI
 QuPath TIFF Merger Pipeline
 A high-performance pipeline for merging field-of-view TIFF images into pyramidal OME-TIFF format using QuPath's command-line interface. Designed for HPC environments with support for SLURM job scheduling and parallel processing.
+
 Overview
+
 This pipeline converts multiple TIFF field-of-view images into single pyramidal OME-TIFF files by parsing spatial metadata from baseline TIFF tags. It features a three-tier architecture for scalable batch processing:
 
 Core Script (qupath_merge_unmixed_files_to_pyramidv0.4.3.groovy) - QuPath Groovy script for TIFF merging
